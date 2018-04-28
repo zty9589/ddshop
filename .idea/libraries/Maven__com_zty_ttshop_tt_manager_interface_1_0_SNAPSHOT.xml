@@ -8,6 +8,11 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/maven-3.3.9/repo/com/zty/ttshop/tt-manager-interface/1.0-SNAPSHOT/tt-manager-interface-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/test/java" />
+      <root url="file://$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java" />
+      <root url="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java" />
     </SOURCES>
   </library>
 </component>

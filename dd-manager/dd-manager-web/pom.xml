@@ -12,8 +12,8 @@
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
-            <groupId>com.zty.ttshop</groupId>
-            <artifactId>tt-manager-service</artifactId>
+            <groupId>com.zty.ddshop</groupId>
+            <artifactId>dd-manager-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <!--字符串工具-->
@@ -78,6 +78,24 @@
             <groupId>com.baidu</groupId>
             <artifactId>ueditor</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.zty.ddshop</groupId>
+            <artifactId>dd-manager-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zty.ddshop</groupId>
+            <artifactId>dd-manager-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baidu</groupId>
+            <artifactId>ueditor</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <finalName>tt-manager-web</finalName>
@@ -86,8 +104,8 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
-                    <port>8080</port>
-                    <path>/bookstore</path>
+                    <port>8081</port>
+                    <path>/bookstore-admin</path>
                 </configuration>
             </plugin>
         </plugins>

@@ -3,6 +3,7 @@ package com.zty.ddshop.dao;
 import com.zty.ddshop.pojo.po.TbUser;
 import com.zty.ddshop.pojo.po.TbUserExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbUserMapper {

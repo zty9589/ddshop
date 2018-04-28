@@ -3,6 +3,7 @@ package com.zty.ddshop.dao;
 import com.zty.ddshop.pojo.po.TbItemParamItem;
 import com.zty.ddshop.pojo.po.TbItemParamItemExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface TbItemParamItemMapper {
