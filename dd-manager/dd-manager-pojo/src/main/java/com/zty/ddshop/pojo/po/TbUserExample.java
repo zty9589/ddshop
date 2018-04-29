@@ -515,7 +515,7 @@ public class TbUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andUpdatedEqualTo(Date value) {
+        public Criteria andUpdatedEqualTo(String value) {
             addCriterion("updated =", value, "updated");
             return (Criteria) this;
         }

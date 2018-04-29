@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zty.ddshop.dao.TbUserParamMapper" >
+    <select id="selectTbUserByParams" resultType="com.zty.ddshop.pojo.po.TbUser" parameterType="com.zty.ddshop.pojo.po.TbUser">
+       SELECT *
+       from tb_user
+       where
+        username !=""
+        <if test="username !=null">
+            and username = #{username}
+        </if>
+        <if test="password !=null">
+            and password = #{password}
+        </if>
+        <if test="phone !=null">
+            and phone = #{phone}
+        </if>
+    </select>
+    <insert id="insertTbUser" parameterType="com.zty.ddshop.pojo.po.TbUser">
+            insert into tb_user (id,username,password,phone,created,updated) values (#{id},#{username},#{password},#{phone},#{created},#{updated});
+    </insert>
+</mapper>

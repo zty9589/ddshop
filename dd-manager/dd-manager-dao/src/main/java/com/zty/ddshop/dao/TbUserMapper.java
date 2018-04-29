@@ -17,7 +17,7 @@ public interface TbUserMapper {
 
     int insertSelective(TbUser record);
 
-    List<TbUser> selectByExample(TbUserExample example);
+    List<TbUser> selectByExample(TbUserExample.Criteria example);
 
     TbUser selectByPrimaryKey(Long id);
 

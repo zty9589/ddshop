@@ -2,827 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ae6130-9d4e-480f-abca-79e1bbc7bbe5" name="Default" comment="带参数保存商品">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/images/arrow_medium_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/images/arrow_medium_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/edit_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/large_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/large_clipart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/large_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/large_shapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/large_smartart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/mini_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/mini_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/mini_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/images/validatebox_warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/alignicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/file-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/background/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/background/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/images/charts5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/bface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/cface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/fface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/jxface2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/tface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/wface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/images/yface.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/alignicon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/addimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/brush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/delimgH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/emptyH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/eraser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/redoH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/scaleH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/size.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/images/undoH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/dragicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/pre0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/pre1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/pre2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/pre3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/images/pre4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/center_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/file-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/left_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/none_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/right_focus.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/images/success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/wordimage/imageUploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/addimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/alldeletebtnupskin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/deletedisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/deleteenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/listbackground.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/rotateleftdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/rotateleftenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/rotaterightdisable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/rotaterightenable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/zh-cn/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/zh-cn/images/localimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/zh-cn/images/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/zh-cn/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/button-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/cancelbutton.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/charts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/cursor_h.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/cursor_h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/cursor_v.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/cursor_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/dialog-title-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/filescan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/highlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/icons-all.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/loaderror.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/lock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/neweditor-tab-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/sortable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/sparator_v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/table-cell-align.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/tangram-colorpicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/toolbar_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/unhighlighted.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/videologo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/word.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/images/wordpaste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/video-js.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/Uploader.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/QQ-weixin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/a1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/a2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/login-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/phone-orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/nav/qr-coagent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/qiang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/ruo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/shortcut/msg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/shortcut/search_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/images/zhong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/dd_protal_web_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/dd_protal_web_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCustomMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCustomMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamCustomMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamCustomMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ContentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/FileService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemCatService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemParamService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/vo/TbItemCustom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/vo/TbItemParamCustom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/vo/TbItemQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ContentServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/FileServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemCatServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemParamServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/FileAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/IndexAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/ItemAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/ItemParamAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/TbItemCatAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/demo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/ftp.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-jedis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/ueditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/item-list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/easyloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/jquery.easyui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/jquery.easyui.mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/license_freeware.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-am.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-cz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-jp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-pt_BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-sv_SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-zh_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/locale/easyui-lang-zh_TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/accordion(1).css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/black/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/bootstrap/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/default/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/gray/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/material/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/calendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/combo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/combobox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/datagrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/datalist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/datebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/filebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/linkbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/menubutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/messager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/numberbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/panel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/passwordbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/propertygrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/searchbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/splitbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/switchbutton.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/textbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/tree.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/validatebox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/metro/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/jquery-easyui-1.5/themes/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/anchor/anchor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/attachment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/attachment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/attachment/attachment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/background/background.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/background/background.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/background/background.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/chart.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/charts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/charts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/charts/charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/emotion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/emotion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/emotion/emotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/gmap/gmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/help/help.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/help/help.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/help/help.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/image/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/insertframe/insertframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/internal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/link/link.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/map/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/map/show.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/music/music.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/music/music.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/music/music.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/scrawl/scrawl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/searchreplace/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/snapscreen/snapscreen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/spechars/spechars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/spechars/spechars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/edittable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/edittable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/edittable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/edittd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/table/edittip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/template/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/video/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/webapp/webapp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/wordimage/tangram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/dialogs/wordimage/wordimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/jsp/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/jsp/controller.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/en/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/lang/zh-cn/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/css/ueditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/css/ueditor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/default/dialogbase.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/themes/iframe.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/codemirror/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/highcharts-more.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/annotations.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/data.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/drilldown.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/funnel.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/heatmap.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/map.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/highcharts/themes/skies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/jquery-1.10.2.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/font/vjs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/video-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/video-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/video.dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/video-js/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/xss.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/ueditor.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/ueditor.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/ueditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/ueditor.parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/js/ueditor/ueditor.parse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/dd-protal-web.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/ftp.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/spring/spring-jedis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/spring/spring-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/resources/ueditor.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/demo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd2.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd3.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd4.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/checkcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/jquery-1.11.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/jquery-1.8.3-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery-1.12.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery-2.2.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery-3.2.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery.fullPage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery.fullPage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery.fullPage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/kkpager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/kkpager.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/kkpager_blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/libs/kkpager_orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/public/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/public/js/jquery-3.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/public/js/jquery-3.1.1.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_common_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_manager_dao_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_manager_pojo_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_manager_service_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dd_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dd_manager_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_manager_interface_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zty_ttshop_tt_manager_interface_1_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/pom.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentCategoryMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentCategoryMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentCategoryMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCatMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCatMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCatMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemCatMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemDescMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemDescMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemDescMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemDescMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamItemMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamItemMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamItemMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamItemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderShippingMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderShippingMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderShippingMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderShippingMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/UserAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/registersuccessful.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-common/target/dd-common.jar" afterPath="$PROJECT_DIR$/dd-common/target/dd-common.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/classes/com/zty/ddshop/dao/TbUserMapper.class" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/classes/com/zty/ddshop/dao/TbUserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/dd-manager-dao.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/dd-manager-dao.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/dd-manager-interface.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/dd-manager-interface.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/classes/com/zty/ddshop/pojo/po/TbUserExample$Criteria.class" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/classes/com/zty/ddshop/pojo/po/TbUserExample$Criteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/classes/com/zty/ddshop/pojo/po/TbUserExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/classes/com/zty/ddshop/pojo/po/TbUserExample$GeneratedCriteria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/dd-manager-pojo.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/dd-manager-pojo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/dd-manager-service.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/dd-manager-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web.war" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/tt-manager-web/WEB-INF/lib/dd-manager-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/classes/com/zty/protal/web/IndexAction.class" afterPath="$PROJECT_DIR$/dd-protal-web/target/classes/com/zty/protal/web/IndexAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web.war" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/classes/com/zty/protal/web/IndexAction.class" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/classes/com/zty/protal/web/IndexAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-common-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-interface-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-interface-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/lib/dd-manager-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/tomcat/logs/access_log.2018-04-29" afterPath="$PROJECT_DIR$/dd-protal-web/target/tomcat/logs/access_log.2018-04-29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/register_jsp.class" afterPath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/register_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-common/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-interface/pom.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContent.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentCategory.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentCategory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentCategoryExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentCategoryExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbContentExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemCat.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemCat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemCatExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemCatExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemDesc.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemDesc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemDescExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemDescExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParam.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParam.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamItem.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamItemExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbItemParamItemExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrder.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderItem.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderItemExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderItemExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderShipping.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderShipping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderShippingExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbOrderShippingExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbUser.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/classes/com/zty/ddshop/dao/TbUserMapper.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/classes/com/zty/ddshop/dao/TbUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-interface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbUserExample.java" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbUserExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/dd-manager-web.iml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/dd-manager-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/pom.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-parent/dd-parent.iml" afterPath="$PROJECT_DIR$/dd-parent/dd-parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-parent/pom.xml" afterPath="$PROJECT_DIR$/dd-parent/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-pojo/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-manager/dd-manager-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/dd-protal-web/target/dd-portal-web/WEB-INF/jsp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/dd-protal-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/dd-protal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/dd-protal-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/register_jsp.java" afterPath="$PROJECT_DIR$/dd-protal-web/target/tomcat/work/Tomcat/localhost/bookstore/org/apache/jsp/WEB_002dINF/jsp/register_jsp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/dd-parent/target/" />
     <ignored path="$PROJECT_DIR$/dd-common/target/" />
@@ -857,33 +91,110 @@
       <file leaf-file-name="IndexAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="741">
+              <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+            <state relative-caret-position="520">
+              <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="157">
+              <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registersuccessful.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/registersuccessful.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="142" column="32" lean-forward="false" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbUserParamMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbUserParamMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <marker date="1524984209066" expanded="true" signature="343:371" ph="SELECT usern... tb_user" />
+                <marker date="1524984209066" expanded="true" signature="343:384" ph="SELECT * fro... tb_user" />
+                <marker date="1524984209066" expanded="true" signature="768:902" ph="insert into tb_user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2052">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521453580785" expanded="true" signature="3981:4083" ph="select from tb_item" />
+                <marker date="1521453580785" expanded="true" signature="4167:4223" ph="delete from " />
+                <marker date="1521453580785" expanded="true" signature="4326:4345" ph="delete from " />
+                <marker date="1521453580785" expanded="true" signature="4525:4983" ph="insert into tb_item... " />
+                <marker date="1521453580785" expanded="true" signature="6928:6956" ph="select count... tb_item" />
+                <marker date="1521453580785" expanded="true" signature="8473:9026" ph="update tb_it... " />
+                <marker date="1521453580785" expanded="true" signature="9237:10214" ph="update tb_it... " />
+                <marker date="1521453580785" expanded="true" signature="10313:10792" ph="update tb_it... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -894,14 +205,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>position</find>
       <find>编辑模块</find>
       <find>365</find>
       <find>ing</find>
@@ -918,7 +228,6 @@
       <find>memberSignup</find>
       <find>注册</find>
       <find>src</find>
-      <find>href</find>
       <find>pi</find>
       <find>.coagent</find>
       <find>图片验证</find>
@@ -931,6 +240,8 @@
       <find>.register-box span</find>
       <find>header</find>
       <find>body</find>
+      <find>insert</find>
+      <find>href</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -944,12 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemDescMapper.java" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.java" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamCustomMapper.java" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamItemMapper.java" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.java" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.java" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.java" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/vo/TbItemCustom.java" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/vo/TbItemParamCustom.java" />
@@ -965,7 +270,6 @@
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderItemMapper.xml" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.xml" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.xml" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemCatService.java" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemParamService.java" />
         <option value="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/ItemService.java" />
@@ -987,14 +291,21 @@
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/login.css" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/index.css" />
-        <option value="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd2.jsp" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd3.jsp" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd4.jsp" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/demo.jsp" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/css.css" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.xml" />
+        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.java" />
+        <option value="$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/UserService.java" />
+        <option value="$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.xml" />
+        <option value="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/UserAction.java" />
+        <option value="$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java" />
         <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/registersuccessful.jsp" />
       </list>
     </option>
   </component>
@@ -1045,11 +356,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-31" />
-    <option name="y" value="14" />
-    <option name="width" value="1308" />
-    <option name="height" value="560" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="181" />
+    <option name="y" value="47" />
+    <option name="width" value="1085" />
+    <option name="height" value="679" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1115,22 +426,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dd-protal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dd-protal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1141,12 +436,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dd-protal-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1168,7 +457,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="SearchEverywhereHistoryKey" value="css&#9;PSI&#9;JAVA://javax.swing.text.html.CSS&#10;testJedis01&#9;PSI&#9;JAVA://com.zty.ddshop.jedis.JedisTest#testJedis01&#10;spring-mvc&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml&#10;ItemServiceIm&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemServiceImpl.java&#10;ItemService&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemParamServiceImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.xml&#10;re&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp&#10;spring&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml&#10;css&#9;PSI&#9;JAVA://javax.swing.text.html.CSS&#10;testJedis01&#9;PSI&#9;JAVA://com.zty.ddshop.jedis.JedisTest#testJedis01&#10;spring-mvc&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml&#10;ItemServiceIm&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemServiceImpl.java&#10;ItemService&#9;FILE&#9;file://F:/ZTY/IDEAPRO/ddshop/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/ItemParamServiceImpl.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1178,9 +467,9 @@
       <recent name="com.zty.ddshop.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\js" />
       <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\css" />
-      <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\WEB-INF\jsp" />
       <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\images" />
       <recent name="F:\ZTY\IDEAPRO\ddshop\dd-protal-web\src\main\webapp\libs" />
     </key>
@@ -1203,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.demo">
+  <component name="RunManager" selected="Maven.dd-portal-web [tomcat7:run]">
     <configuration name="FtpUploadTest.testFtpUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1410,8 +699,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.demo" />
-        <item index="1" class="java.lang.String" itemvalue="Maven.dd-portal-web [tomcat7:run]" />
+        <item index="0" class="java.lang.String" itemvalue="Maven.dd-portal-web [tomcat7:run]" />
+        <item index="1" class="java.lang.String" itemvalue="Application.demo" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.FtpUploadTest.testFtpUtils" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedis01" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.JedisTest.testJedis02" />
@@ -1456,7 +745,7 @@
       <workItem from="1524659076291" duration="7126000" />
       <workItem from="1524748490348" duration="2902000" />
       <workItem from="1524838974788" duration="10238000" />
-      <workItem from="1524916801625" duration="18517000" />
+      <workItem from="1524916801625" duration="37517000" />
     </task>
     <task id="LOCAL-00001" summary="添加依赖">
       <created>1520045569854</created>
@@ -1515,14 +804,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216822000" />
+    <option name="totallyTimeSpent" value="235822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28968903" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1535,7 +825,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2730711" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22012103" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2730711" sideWeight="0.5057283" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1548,7 +838,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28968903" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1620,119 +909,11 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/orderList.jsp" />
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/0b15a8a495134de8ba8419142a7a696f.js" />
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/js/5de10455e2de4961aa43929117c2f90f.js" />
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetpsw.jsp" />
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/f020707129144542be4e0fec0c5f61e9.css" />
-    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/JedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/JedisClientCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/FtpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="91" column="37" lean-forward="false" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/java/com/zty/ddshop/web/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/cart.jsp" />
-    <entry file="jar://E:/java/jdk1.8/src.zip!/javax/swing/text/html/CSS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="118" column="24" lean-forward="true" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="42" column="22" lean-forward="false" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven-3.3.9/repo/com/alibaba/druid/1.0.29/druid-1.0.29.jar!/support/http/resources/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="1" column="83577" lean-forward="false" selection-start-line="1" selection-start-column="83577" selection-end-line="1" selection-end-column="83577" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/meta.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="177" column="22" lean-forward="false" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/css/base2.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1869,18 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/forgetPwd4.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1937,10 +1106,239 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-web/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-pojo/src/main/java/com/zty/ddshop/pojo/po/TbUserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemParamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521453581229" expanded="true" signature="4246:4401" ph="select , fro... " />
+            <marker date="1521453581229" expanded="true" signature="4485:4547" ph="delete from " />
+            <marker date="1521453581229" expanded="true" signature="4655:4680" ph="delete from " />
+            <marker date="1521453581229" expanded="true" signature="4865:5114" ph="insert into tb_item_param... " />
+            <marker date="1521453581229" expanded="true" signature="6262:6296" ph="select count... tb_item_param" />
+            <marker date="1521453581229" expanded="true" signature="7238:7526" ph="update tb_it... " />
+            <marker date="1521453581229" expanded="true" signature="7699:7926" ph="update tb_it... " />
+            <marker date="1521453581229" expanded="true" signature="8142:8619" ph="update tb_it... " />
+            <marker date="1521453581229" expanded="true" signature="8732:8988" ph="update tb_it... " />
+            <marker date="1521453581229" expanded="true" signature="9092:9294" ph="update tb_it... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521453580647" expanded="true" signature="4671:4823" ph="select , fro... " />
+            <marker date="1521453580647" expanded="true" signature="4907:4966" ph="delete from " />
+            <marker date="1521453580647" expanded="true" signature="5072:5094" ph="delete from " />
+            <marker date="1521453580647" expanded="true" signature="5277:5757" ph="insert into tb_content... " />
+            <marker date="1521453580647" expanded="true" signature="7742:7773" ph="select count... tb_content" />
+            <marker date="1521453580647" expanded="true" signature="9327:9902" ph="update tb_co... " />
+            <marker date="1521453580647" expanded="true" signature="10075:10594" ph="update tb_co... " />
+            <marker date="1521453580647" expanded="true" signature="10808:11813" ph="update tb_co... " />
+            <marker date="1521453580647" expanded="true" signature="11924:12425" ph="update tb_co... " />
+            <marker date="1521453580647" expanded="true" signature="12527:12979" ph="update tb_co... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding>
+            <marker date="1524972599153" expanded="true" signature="3699:3801" ph="select from tb_user" />
+            <marker date="1524972599153" expanded="true" signature="3885:3941" ph="delete from " />
+            <marker date="1524972599153" expanded="true" signature="4044:4063" ph="delete from " />
+            <marker date="1524972599153" expanded="true" signature="4243:4558" ph="insert into tb_user... " />
+            <marker date="1524972599153" expanded="true" signature="5956:5984" ph="select count... tb_user" />
+            <marker date="1524972599153" expanded="true" signature="7103:7471" ph="update tb_us... " />
+            <marker date="1524972599153" expanded="true" signature="7682:8317" ph="update tb_us... " />
+            <marker date="1524972599153" expanded="true" signature="8416:8738" ph="update tb_us... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="9" />
+          <folding>
+            <marker date="1521453580496" expanded="true" signature="4674:4789" ph="select from tb_order" />
+            <marker date="1521453580496" expanded="true" signature="4875:4944" ph="delete from " />
+            <marker date="1521453580496" expanded="true" signature="5048:5068" ph="delete from " />
+            <marker date="1521453580496" expanded="true" signature="5249:6098" ph="insert into tb_order... " />
+            <marker date="1521453580496" expanded="true" signature="9178:9207" ph="select count... tb_order" />
+            <marker date="1521453580496" expanded="true" signature="11562:12562" ph="update tb_or... " />
+            <marker date="1521453580496" expanded="true" signature="12774:14500" ph="update tb_or... " />
+            <marker date="1521453580496" expanded="true" signature="14600:15484" ph="update tb_or... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-common/src/main/java/com/zty/ddshop/common/util/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven-3.3.9/repo/org/springframework/spring-web/4.2.8.RELEASE/spring-web-4.2.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven-3.3.9/repo/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521453580785" expanded="true" signature="3981:4083" ph="select from tb_item" />
+            <marker date="1521453580785" expanded="true" signature="4167:4223" ph="delete from " />
+            <marker date="1521453580785" expanded="true" signature="4326:4345" ph="delete from " />
+            <marker date="1521453580785" expanded="true" signature="4525:4983" ph="insert into tb_item... " />
+            <marker date="1521453580785" expanded="true" signature="6928:6956" ph="select count... tb_item" />
+            <marker date="1521453580785" expanded="true" signature="8473:9026" ph="update tb_it... " />
+            <marker date="1521453580785" expanded="true" signature="9237:10214" ph="update tb_it... " />
+            <marker date="1521453580785" expanded="true" signature="10313:10792" ph="update tb_it... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1524984209066" expanded="true" signature="343:371" ph="SELECT usern... tb_user" />
+            <marker date="1524984209066" expanded="true" signature="343:384" ph="SELECT * fro... tb_user" />
+            <marker date="1524984209066" expanded="true" signature="768:902" ph="insert into tb_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-dao/src/main/java/com/zty/ddshop/dao/TbUserParamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-interface/src/main/java/com/zty/ddshop/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-manager/dd-manager-service/src/main/java/com/zty/ddshop/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/java/com/zty/protal/web/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="157">
+          <caret line="135" column="65" lean-forward="false" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dd-protal-web/src/main/webapp/WEB-INF/jsp/registersuccessful.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="142" column="32" lean-forward="false" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1999,7 +1397,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dd-parent</last-edited>
+          <last-edited>dd-manager-pojo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

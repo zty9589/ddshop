@@ -9,5 +9,6 @@ com\zty\ddshop\dao\TbContentCategoryMapper.class
 com\zty\ddshop\dao\TbOrderShippingMapper.class
 com\zty\ddshop\dao\TbItemParamMapper.class
 com\zty\ddshop\dao\TbOrderItemMapper.class
+com\zty\ddshop\dao\TbUserParamMapper.class
 com\zty\ddshop\dao\TbItemCustomMapper.class
 com\zty\ddshop\dao\TbOrderMapper.class

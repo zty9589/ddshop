@@ -7,21 +7,88 @@
 		<title>新用户注册</title>
 		<script type="text/javascript" src="js/jquery-1.8.3-min.js"></script>
 		<script type="text/javascript">
+
 			$(function(){
+                var username;
+                var phone;
+                $("#username").focusout(function() {
+                    //用户名
+                    username = $('#username').val();
+                    if(username == null || username == ""){
+                        $('#tips1').text("用户名不能为空").css("color","red").css("font-size","14px");
+                    }else{
+                        var param = {"username":username};
+                        var temp;
+                        //ajax查询，判断该用户名有没有被注册
+                        $.ajax({
+                            url:"${pageContext.request.contextPath}/configAccount.action",
+                            data:param,
+                            dataType:"json",
+                            type:"post",
+                            cache:false,
+                            success:function(rec){
+                                if(rec == "1"){//该用户名已注册
+                                    $('#tips1').text("该用户名已被注册").css("color","red").css("font-size","14px");
+                                }else if(rec == "0"){
+                                    $('#tips1').text("");
+                                }
+                            },
+                            error:function(){
+                                alert("服务器错误")
+                            }
+                        });
+                    }
+                })
+
+                $("#phone").focusout(function() {
+                    //匹配手机号码的正则表达式
+                    var str = /^1[3,5,8]\d{9}$/;
+                    //手机号码
+                    phone = $('#phone').val();
+                    if(phone == null || phone == ""){
+                        $('#tips4').html("手机号码不能为空").css("color","red").css("font-size","14px");
+                    }else if(str.test(phone) == false){
+                        $('#tips4').html("手机号码格式不正确").css("color","red").css("font-size","14px");
+					} else if(str.test(phone) == true){
+                        var param = {"phone":phone};
+                        //ajax查询，判断该用户名有没有被注册
+                        $.ajax({
+                            url:"${pageContext.request.contextPath}/configPhone.action",
+                            data:param,
+                            dataType:"json",
+                            type:"post",
+                            cache:false,
+                            success:function(rec){
+                                if(rec == "1"){//该用户名已注册
+                                    $('#tips4').text("该手机号码已被注册").css("color","red").css("font-size","14px");
+                                }else if(rec == "0"){
+                                    $('#tips4').text("");
+                                }
+                            },
+                            error:function(){
+                                alert("服务器错误")
+                            }
+                        });
+                    }
+                })
+
+
 			    $("#form").submit(function (e) {
-			        //用户名
-					var username = $('#username').val();
-					var flag1 = false;
+			        //如果提示字体为空且文本框里面有值则说明用户名校验通过
+			        var flag1 =false;
+			        if( $('#tips1').text()==""&&($('#username').val()!=null||$('#username').val()!='')){
+						flag1 = true;
+					}
+					var flag4=false;
+			        if( $('#tips4').text()==""&&($('#phone').val()!=null||$('#phone').val()!='')){
+                        flag4 = true;
+					}
 					//密码
                     var password1 = $('#password1').val();
                     var flag2 = false;
                     //确认密码
                     var password2 = $('#password2').val();
                     var flag3 = false;
-                    //手机号码
-                    var phone = $('#phone').val();
-                    var flag4 = false;
-                    var str = /^1[3,5,8]\d{9}$/;
                     //验证码
                     var ms_code = $('#ms_code').val();
                     var flag5 = false;
@@ -29,13 +96,7 @@
                     var status_ = $("input[type='checkbox']").is(':checked');
                     var flag6 = false;
 
-					if(username == null || username == ""){
-						$('#tips1').text("用户名不能为空").css("color","red").css("font-size","14px");
-					}else{
-					    
-						$('#tips1').text("");
-						flag1 = true;
-					}
+
 
                     if(password1 == null || password1 == ""){
                         $('#tips2').html("密码不能为空").css("color","red").css("font-size","14px");
@@ -55,16 +116,6 @@
 						}
                     }
 
-                    if(phone == null || phone == ""){
-                        $('#tips4').html("手机号码不能为空").css("color","red").css("font-size","14px");
-                    }else{
-                        if(str.test(phone)){
-                            $('#tips4').html("");
-                            flag4 = true;
-                        }else{
-                            $('#tips4').html("手机号码格式不正确").css("color","red").css("font-size","14px");
-						}
-                    }
 
                     if(ms_code == null || ms_code == ""){
                         $('#tips5').html("验证码不能为空").css("color","red").css("font-size","14px");
@@ -79,21 +130,22 @@
                         $('#tips6').html("");
                         flag6 = true;
                     }
-
                     //阻止表单提交
                     e.preventDefault();
 					//前端校验通过
                     if(flag1&&flag2&&flag3&&flag4&&flag5&&flag6){
 						//Ajax提交表单
-						var param = {"username":username,"password":password2};
+						var param = {"username":username,"password":password2,"phone":phone};
                         $.ajax({
-                            url:"${pageContext.request.contextPath}/login.action",
+                            url:"${pageContext.request.contextPath}/registerAccount.action",
                             data:param,
                             dataType:"json",
                             type:"post",
                             cache:false,
                             success:function(rec){
-
+                                if(rec=="1"){
+                                    window.location.href="registersuccessful";
+                                }
                             },
                             error:function(){
                                 alert("服务器错误")

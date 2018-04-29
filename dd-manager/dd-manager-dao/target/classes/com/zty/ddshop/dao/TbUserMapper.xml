@@ -75,7 +75,7 @@
     select
     <if test="distinct" >
       distinct
-    </if>
+    </if>.
     <include refid="Base_Column_List" />
     from tb_user
     <if test="_parameter != null" >
