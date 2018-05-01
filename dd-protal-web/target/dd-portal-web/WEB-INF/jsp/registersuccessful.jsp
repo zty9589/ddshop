@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+		 pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -138,7 +140,7 @@ function alertSet(e) {
     document.getElementById("js-sec-text").innerHTML = t,
     setInterval(function() {
         if (0 == t){
-			location.href="http://www.jq-school.com";
+			location.href="login";
 		}else {
             t -= 1,
             document.getElementById("js-sec-text").innerHTML = t;

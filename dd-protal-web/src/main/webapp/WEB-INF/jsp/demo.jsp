@@ -29,24 +29,24 @@
        <div class="liutext"><em>4</em><br /><strong>完成</strong></div>
       </div>
      </div><!--for-liucheng/-->
-     <form action="forgetPwd2.html" method="get" class="forget-pwd">
-       <dl>
+     <form class="forget-pwd" id="form">
+       <dl style="width: 100%">
         <dt>账户名：</dt>
-        <dd><input type="text" /></dd>
-        <div class="clears"></div>
+           <dd><input type="text" id="username"/><span id="sp1"></span>&nbsp;&nbsp;&nbsp;<span id="sp2"></span></dd>
+        <div class="clears" ></div>
        </dl> 
        <dl>
         <dt>验证码：</dt>
         <dd>
-         <input type="text" /> 
-         <div class="yanzma">
+         <input type="text" id="code"/>
+         <div class="yanzma" id="div1">
            <canvas width="100" height="40" id="verifyCanvas"></canvas>
            <img id="code_img"> <a href="">换一换</a>
          </div>
         </dd>
         <div class="clears"></div>
        </dl>
-       <div class="subtijiao"><input type="submit" value="提交" /></div> 
+       <div class="subtijiao"><input type="submit" value="提交" /></div>
       </form><!--forget-pwd/-->
    </div><!--web-width/-->
   </div><!--content/-->
@@ -116,8 +116,50 @@
     // 点击图片刷新
     document.getElementById('code_img').onclick = function () {
         $('#verifyCanvas').remove();
-        $('#verify').after('<canvas width="100" height="40" id="verifyCanvas"></canvas>')
         drawCode();
     }
+
+
+
+
+</script>
+<script type="text/javascript" src="js/jquery-1.8.3-min.js"></script>
+<script type="text/javascript">
+ /*   $(function () {*/
+      $('#form').submit(function(e){
+          var username = $('#username').val();
+          var code = $('#code').val();
+          //var code1 = $('#verifyCanvas').getContext("2d");
+          var code1 = $('#code_img');
+          var flag1 = false;
+          var flag2 = false;
+
+          if(username == null || code == ""){
+              $('#sp1').html("账户名不能为空").css("color","red").css('font-size',"12.5px");
+          }else{
+              $('#sp1').html("");
+              flag1=true;
+          }
+          console.log(code1);
+          if(code == null || code == ""){
+              $('#sp2').html("验证码不能为空").css("color","red").css('font-size',"12.5px");
+          }else {
+
+              $('#sp2').html("");
+              flag2=true;
+          }
+
+          //阻止表单提交
+          e.preventDefault();
+
+      })
+
+
+
+
+
+
+
+
 </script>
 </html>

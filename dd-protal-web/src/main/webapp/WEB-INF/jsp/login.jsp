@@ -8,7 +8,61 @@
 	<meta name="Description" content="描述">
 	<link rel="stylesheet" href="public/css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<script src="public/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3-min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('#formlogin').submit(function (e) {
+			    var flag1=false;
+			    var flag2=false;
+			    var loginname = $('#loginname').val();
+			    var nloginpwd = $('#nloginpwd').val();
+			    if(loginname ==null || loginname ==''){
+					$('#sp1').html("用户名不能为空").css("color","red").css("font-size","14px");
+				}else{
+                    $('#sp1').html("");
+                    flag1=true;
+				}
+
+                if(nloginpwd ==null || nloginpwd ==''){
+                    $('#sp2').html("密码不能为空").css("color","red").css("font-size","14px");
+                }else{
+                    $('#sp2').html("");
+                    flag2=true;
+                }
+                e.preventDefault();
+                if(flag1&&flag2){
+					var param = {"loginname":loginname,"nloginpwd":nloginpwd};
+					//ajax提交表单
+					$.ajax({
+						url:"userLogin",
+						data:param,
+                        dataType:"json",
+                        type:"post",
+                        cache:false,
+						success:function (e) {
+							if(e=="0"||e=="1"){
+                                window.location.href="index";
+                            }else if(e=="2"){
+                                $('#sp2').html("密码错误").css("color","red").css("font-size","14px");
+							}else if(e=="3"){
+                                $('#sp2').html("该用户名未注册").css("color","red").css("font-size","14px");
+							}
+                        },
+						error:function () {
+							alert("服务器错误");
+                        }
+					})
+				}
+
+            });
+        })
+
+
+
+
+
+
+	</script>
 	<script src="js/checkcode.js"></script>
 	<title>天天书店登录页面</title>
 </head>
@@ -53,36 +107,23 @@
 					<!-- 登录提示信息结束 -->
 					<div class="mc">
 						<div class="form">
-							<form action="" id="formlogin" method="post" onSubmit="return false;">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
-								<input type="hidden" name="" class="hide" id="" value="">
+							<form id="formlogin" method="post">
 								<!-- 用户名输入框fore1 -->
 								<div class="item item-fore1 item-error">
 									<label for="loginname" class="login-label name-label"></label>
 									<input type="text" name="loginname" id="loginname" class="itxt" tabindex="1" autocomplete="off" placeholder="邮箱/用户名/已验证手机">
-									<span class="clear-btn" style="display:inline;"></span>
+									<span class="clear-btn" style="display:inline;" id="sp1"></span>
 								</div>
 								<!-- 密码输入框fore2 -->
 								<div id="entry" class="item item-fore2" style="visibility: visible">
 									<label class="login-label pwd-label" for="nloginpwd"></label>
 									<input type="password" name="" id="nloginpwd" name="nloginpwd" class="itxt itxt-error" tabindex="2" autocomplete="off" placeholder="密码">
-									<span class="clear-btn" style="display: inline;"></span>
+									<span class="clear-btn" style="display: inline;" id="sp2"></span>
 									<span class="capslock" style="display: none;">
   			  					<b></b>
   			  					大小写锁定已打开
   			  				</span>
 								</div>
-								<!-- 图片验证码开始 fore3-->
-								<%--<div id="o-authcode" class="item item-vcode item-fore3 hide ">
-									<input type="text" name="" id="authcode" class="itxt itxt02" name="authcode" tabindex="3">
-									<input type = "button" id="code"  class="verify-code">
-									<a href="javascript:;" onclick='createCode();'>看不清换一张</a>
-								</div>--%>
 								<!-- 自动登录开始fore4 -->
 								<div class="item item-fore4">
 									<div class="safe">
@@ -98,7 +139,7 @@
 								<!-- 登录按钮开始 -->
 								<div class="item item-fore5">
 									<div class="login-btn">
-										<a href="javascript:;" class="btn-img btn-entry" id="loginsubmit" tabindex="6" onClick="validate()" >登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+										<input type="submit" class="btn-img btn-entry" tabindex="6" value="登&nbsp;&nbsp;&nbsp;&nbsp;录"/>
 									</div>
 								</div>
 							</form>
@@ -143,14 +184,6 @@
 									</a>
 								</li>
 								<li>扫描二维码</li>
-							</ul>
-						</div>
-						<!-- panel结束 -->
-						<div class="coagent qr-coagent" id="qrCoagent" style="display: block; visibility: visible;">
-							<ul>
-								<li><b></b><em>免输入</em></li>
-								<li><b class="faster"></b><em>更快&nbsp;</em></li>
-								<li><b class="more-safe"></b><em>更安全</em></li>
 							</ul>
 						</div>
 					</div>
@@ -230,7 +263,6 @@
 </body>
 
 <script type="text/javascript">
-    //alert($)
     //微信登录和账号登录切换
     $(".login-tab-r").click(function(){
         $(".login-box").css({"display":"block","visibility":"visible"});
@@ -248,12 +280,7 @@
         $(".qrcode-img").css({"left": "64px"});
         $(".qrcode-help").css({"display":"none"});
     });
-    //确认输入用户名密码后，显示验证码
-    $("#nloginpwd").blur(function(){
-        if(($("#loginname").val() !="" )&&($("#nloginpwd").val() !="")){
-            $("#o-authcode").css({"display":"block"});
-        }
-    })
+
     createCode();
 
 </script>

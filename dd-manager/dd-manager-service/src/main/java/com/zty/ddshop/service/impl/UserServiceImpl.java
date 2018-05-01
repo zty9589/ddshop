@@ -51,4 +51,10 @@ public class UserServiceImpl implements UserService {
         }
         return flag;
     }
+
+    @Override
+    public List<TbUser> findTbUserByParams(TbUser tbUser) {
+        List<TbUser> list = tbUserParamMapper.selectTbUserByParams(tbUser);
+        return list;
+    }
 }

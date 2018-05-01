@@ -1,4 +1,6 @@
-﻿
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
 <!DOCTYPE HTML>
 
 
@@ -6,9 +8,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class="g_htmlManage">
 <head>
 
-    <title>-</title>
+    <title>天天网上书店欢迎您</title>
 
-    <meta id='_TOKEN' value='70a61c21b0b52bdbf724ef64e951329f'/>
+    <meta id='_TOKEN' value='95ca182fcf98067d07f7dd67c43b83bd'/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Cache-Control" content="no-transform" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,34 +19,8 @@
     <meta name="renderer" content="webkit" />
 
     <meta property="og:url" content="http://sj15668681.jz.fkw.com/">
-
-
-
-
-    <script type="text/javascript">
-        (function() {
-            var fs = document.createElement("script");
-            fs.src = "//fe.faisys.com/jssdk_1_0/js/hawkEye.min.js?v=201804230959";
-            window.FAI_HAWK_EYE = {};
-            window.FAI_HAWK_EYE.jssdk_report_url = "//report.fkw.com/js/report";
-            window.FAI_HAWK_EYE.jssdk_appid = 3010;
-            window.FAI_HAWK_EYE.fai_aid = 16351048;
-            window.FAI_HAWK_EYE.fai_bs_aid = 16351048;
-            window.FAI_HAWK_EYE.fai_bs_id = 0;
-            window.FAI_HAWK_EYE.fai_bs_wid = 0;
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(fs, s);
-        })();</script>
-
-
-    <meta name="mobile-agent" content="format=html5;url=http://m.sj15668681.icoc.bz/"/>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-
-    <!--[if lt IE 9]>
-    <script type="text/javascript">
-        window.location.href = "//sj15668681.jz.fkw.com/kill-IE.jsp?url=http%3A%2F%2Fsj15668681.jz.fkw.com%2F";
-    </script>
     <![endif]-->
     <link rel='canonical' href='//sj15668681.jz.fkw.com'>
 
@@ -52,30 +28,16 @@
 
     <link type="text/css" href="//2.ss.faisys.com/css/base2.min.css?v=201804261354" rel="stylesheet" />
     <link type="text/css" href="//jzs.faisys.com/119/fkTheme.min.css?v=20180416192148&isNavV2=true&isBannerV2=true" rel="stylesheet" id="jzThemeFrame"/>
+    <link id='sysnavlink' type='text/css' href='//jzs.faisys.com/3042/fkNav.min.css?v=20171211094315' rel='stylesheet'><link type='text/css' href='//jzs.faisys.com/2/1_1/fkModule.min.css?v=20180428104223' rel='stylesheet' id='jzModule2_1_1'><link type='text/css' href='//2.ss.faisys.com/css/newSearchBoxStyle.min.css?v=201804251356' rel='stylesheet'><link type='text/css' href='//2.ss.faisys.com/css/floatBtn1.min.css?v=201712061746' rel='stylesheet'>
+    <script type="text/javascript" src="js/jquery-1.8.3-min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var str1 = $('#sp4').text().substring(3,7);
 
-    <link type="text/css" href="//2.ss.faisys.com/css/staff.min.css?v=201802261203" rel="stylesheet" />
+            $('#sp4').
 
-
-
-    <link id='sysnavlink' type='text/css' href='//jzs.faisys.com/3042/fkNav.min.css?v=20171211094315' rel='stylesheet'><link type='text/css' href='//jzs.faisys.com/2/1_1/fkModule.min.css?v=20180416155623' rel='stylesheet' id='jzModule2_1_1'><link type='text/css' href='//2.ss.faisys.com/css/newSearchBoxStyle.min.css?v=201804251356' rel='stylesheet'><link type='text/css' href='//2.ss.faisys.com/css/floatBtn1.min.css?v=201712061746' rel='stylesheet'>
-
-
-
-    <link type="text/css" href="//2.ss.faisys.com/css/edit.min.css?v=201804261354" rel="stylesheet" />
-    <link type="text/css" href="//2.ss.faisys.com/css/comm/vcomponents.min.css?v=201804261354" rel="stylesheet" />
-    <link type="text/css" href="//2.ss.faisys.com/css/comm/colorpicker/colorpicker.min.css?v=201710091556" rel="stylesheet" />
-    <link type="text/css" href="//2.ss.faisys.com/css/comm/fkeditor/fkeditor.min.css?v=201804261354" rel="stylesheet" />
-
-    <link type="text/css" href="//2.ss.faisys.com/css/site/poshytipAndmCustomScrollbar.min.css?v=201707031157" rel="stylesheet" />
-
-
-
-
-    <link type="text/css" href="//2.ss.faisys.com/css/promotion/promotion.min.css?v=201710091348" rel="stylesheet" />
-
-
-
-
+        })
+    </script>
     <style id='stylemodule'>
         #module316 {height:503px;}
         #module316 {padding:0px;margin-left:200px;margin-right:0px;margin-top:0px;margin-bottom:0px;}
@@ -126,10 +88,7 @@
         #module331 .formMiddleContent331{background:none;}
         #module331 .formTabButtonMore {display:block;}
         #module331 .floatBtn{width:70px;height:22px;line-height:22px;}
-        #module330 {height:49px;}
-        #module330 .formBanner330{display:none;}
-        #module330 .formTabButtonMore {display:block;}
-        #module323 {height:92px;}
+        #module323 {height:14px;}
         #module323 {border:none;}
         #module323 .formMiddle323{border:none;}
         #module323 .formMiddle323 .formMiddleCenter323{border:none;}
@@ -142,8 +101,11 @@
         #module323 .formMiddle323 {background:none;}
         #module323 .formMiddle323 .formMiddleCenter323{background:none;}
         #module323 .formMiddleContent323{background:none;}
-        #module323 .floatImg .float_in_img{width:128px;}
-        #module323 .floatImg .float_in_img{height:92px;}
+        #module323 .floatImg .float_in_img{width:22px;}
+        #module323 .floatImg .float_in_img{height:14px;}
+        #module330 {height:49px;}
+        #module330 .formBanner330{display:none;}
+        #module330 .formTabButtonMore {display:block;}
         #module329 {height:49px;}
         #module329 .formBanner329{display:none;}
         #module329 .formTabButtonMore {display:block;}
@@ -792,9 +754,6 @@
         #module365 .formMiddleContent365{background:none;}
         #module365 .floatImg .float_in_img{width:1199px;}
         #module365 .floatImg .float_in_img{height:519px;}
-        #module373 {height:48px;}
-        #module373 .formBanner373{display:none;}
-        #module373 .formTabButtonMore {display:block;}
         #module380 {height:20px;}
         #module380 {border:none;}
         #module380 .formMiddle380{border:none;}
@@ -824,6 +783,9 @@
         #module380 .floatBtn{-moz-border-radius:16px 16px 16px 16px;}
         #module380 .floatBtn{-webkit-border-radius:16px 16px 16px 16px;}
         #module380 .floatBtn{border-radius:16px 16px 16px 16px;}
+        #module373 {height:48px;}
+        #module373 .formBanner373{display:none;}
+        #module373 .formTabButtonMore {display:block;}
         #module381 {height:160px;}
         #module381 .mulColPadding {padding-right:20px;}
         #module381 {border:none;}
@@ -1097,63 +1059,33 @@
     <style id='styleTitle' type='text/css'>
     </style>
 
-
-
-
-
-
-    <link type="text/css" href="//2.ss.faisys.com/css/webRightBar.min.css?v=201804231138" rel="stylesheet" />
-
 </head>
 <body class="g_bodyManage g_locale2052 g_cusSiteWidth  " >
-
-
 <script type="text/javascript" src="//1.ss.faisys.com/js/jzUtils.min.js?v=201801151214"></script>
-
-
 <script type="text/javascript" src ="//1.ss.faisys.com/js/comm/vue/vue.min.js?v=201706121742"></script>
 
+<div id="memberBarArea" class="memberBarArea g_editPanel">	<div id='arrow' class='g_arrow g_arrow_up'></div>
+    <div id='memberBar' class='memberBar'>		<div class='left'><div style='float:left;margin-left: 8px;'>
+        <a id='topBarMember_addBookMark' hidefocus='true' href='javascript:;' style='text-decoration:none;display:;' onclick="Fai.addBookmark(top.document.title, 'http://sj15668681.jz.fkw.com');">收藏本站</a>			</div>			<div id='line1' class='line' style='float:left;display:;'></div>			<div style='float:left;'>				<a id='topBarMember_myProfile' hidefocus='true' style='text-decoration:none;display:;'  href='mCenter.jsp'>我的资料</a>			</div>			<div id='line2' class='line' style='float:left;display:none;'></div>			<div style='float:left;'>
+        <a id='topBarMember_myOrder' hidefocus='true' style='text-decoration:none;display:none;' >我的订单</a>			</div>			<div id='mobiWeb_line' class='line' style='margin-right:0px;'></div>			<div style='float:left;  margin-left: 15px;'>				<div id='mobiWeb_js' class='mobiWeb' style=''>					<div class='mobiWebItem'>						<span class='mobiWeb_icon'>&nbsp;</span>						<span class='mobi_down'>&nbsp;</span>					</div>				</div>				<div class='mobiWebPanel'>					<div id='mobiWebQRCode_js' class='mobiWebQRCode'>						<div style='text-align:center;padding-top:10px;'><img src='qrCode.jsp?cmd=mobiQR&_s=80&lanCode=' alt=' '></div>						<div style='text-align:center;padding-top:2px;font-size:12px;height:28px;line-height:28px;color:#555;'>查看手机网站</div>					</div>				</div>			</div>		</div>
+<div class='right' style="width: 370px">
+        <c:if test="${username!=null}">
+              <span style="color: red" id="div1">欢迎您：${username}<a href="removeSession">[退出]</a></span>
+              <span>&nbsp;&nbsp;</span>
+            <span>|&nbsp;&nbsp;<img src="images/16.jpg" style="margin-top: 9px;height: 19px;width: 16px">购物车&nbsp;&nbsp;</span>
 
-<script type="text/javascript" language="javascript" >
-    document.domain = 'fkw.com';
-    var _portalHost = 'i.fkw.com';
-
-</script>
-
-
-
-<script type="text/javascript" language="javascript" >
-
-    window.setTimeout(function(){
-        var disableScriptTips = document.getElementById('disableScriptTips');
-        if (disableScriptTips) {
-            disableScriptTips.style.display = 'inline';
-            disableScriptTips.style.color = '#facd89';
-            _faiAjax.ajax({
-                type	: "GET",
-                url		: "ajax/log_h.jsp?cmd=dog&dogId=200057&dogSrc=1"
-            });
-        }
-    }, 10000);
-</script>
-
-
-<div class="fk-loadingBar">
-    <div class="currentProgress" style="width:2%"></div>
-</div>
-
-<%--<script type="text/javascript">
-    domainLink = "http://www.sj15668681.icoc.bz"+window.location.pathname+window.location.search;
-    domainInBaidu = false;		//是否已经百度收录
-    allowedSeo = false;
-    //bussinVerProm = "<a class='siteGroupBtn siteGroupPro' target='_blank' href='http://i.fkw.com/portal.jsp?buySiteVer=true&siteSid=0&proSite=true&stdOrPopVer=1#appId=shop' onmouseover='Site.forPayPopup(10, &quot;网站专业版&quot;, &quot;&quot;, 0,&quot;http://i.fkw.com/portal.jsp?buySiteVer=true&siteSid=0&proSite=true&stdOrPopVer=1#appId=shop&quot;);' onmouseleave='Site.forPayPopup(10, &quot;网站专业版&quot;, &quot;&quot;, 1, &quot;http://i.fkw.com/portal.jsp?buySiteVer=true&siteSid=0&proSite=true&stdOrPopVer=1#appId=shop&quot;);'  title='为“网站专业版”功能，点击查看详细功能列表'>&nbsp;</a>";
-    isFaiHost = true;
-    baiduCollecting = false;
-    hasTLDomain = false;
-</script>--%>
-
-
-<div id="memberBarArea" class="memberBarArea g_editPanel">	<div id='arrow' class='g_arrow g_arrow_up'></div>	<div id='memberBar' class='memberBar'>		<div class='left'>			<div style='float:left;margin-left: 8px;'>				<a id='topBarMember_addBookMark' hidefocus='true' href='javascript:;' style='text-decoration:none;display:;' onclick="Fai.addBookmark(top.document.title, 'http://sj15668681.jz.fkw.com');">收藏本站</a>			</div>			<div id='line1' class='line' style='float:left;display:;'></div>			<div style='float:left;'>				<a id='topBarMember_myProfile' hidefocus='true' style='text-decoration:none;display:;'  href='mCenter.jsp'>我的资料</a>			</div>			<div id='line2' class='line' style='float:left;display:none;'></div>			<div style='float:left;'>				<a id='topBarMember_myOrder' hidefocus='true' style='text-decoration:none;display:none;' href='mCenter.jsp?item=memberOrder'>我的订单</a>			</div>			<div id='mobiWeb_line' class='line' style='margin-right:0px;'></div>			<div style='float:left;  margin-left: 15px;'>				<div id='mobiWeb_js' class='mobiWeb' style=''>					<div class='mobiWebItem'>						<span class='mobiWeb_icon'>&nbsp;</span>						<span class='mobi_down'>&nbsp;</span>					</div>				</div>				<div class='mobiWebPanel'>					<div id='mobiWebQRCode_js' class='mobiWebQRCode'>						<div style='text-align:center;padding-top:10px;'><img src='qrCode.jsp?cmd=mobiQR&_s=80&lanCode=' alt=' '></div>						<div style='text-align:center;padding-top:2px;font-size:12px;height:28px;line-height:28px;color:#555;'>查看手机网站</div>					</div>				</div>			</div>		</div>		<div class='right'><div style='float:right;'>				<a href='javascript:;' class='l_Btn' id='t_wxLgn'><span class='l_Ico wxLgn'></span></a>				<span style='float: right;'>其他帐号登录：</span>				<a class='memberOption memberReg' href='register' style='margin-right:10px;'>注册</a>				<a class='memberOption memberLogin' href='javascript:Site.memberLogin();' >登录</a>			</div>		</div>		<div id='topBarMsg' style='display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:#eee; text-align:center; z-index: 9010;'></div>	</div></div>
+              <span>|&nbsp;&nbsp;我的订单&nbsp;&nbsp;</span>
+            <span id="sp4">|&nbsp;&nbsp;我的收藏</span>
+        </c:if>
+    <c:if test="${username==null}">
+        <div style='float:right;'>				<a
+                href='javascript:;' class='l_Btn' id='t_wxLgn'><span class='l_Ico
+wxLgn'></span></a>				<span style='float:
+right;'>其他帐号登录：</span>				<a
+                class='memberOption memberReg' href='register' style='margin-right:10px;'>
+            注册</a>				<a class='memberOption
+memberLogin' href='login' >登录</a>			</div>
+    </c:if>	</div>		<div id='topBarMsg' style='display:none; position:absolute; top:0; left:0; width:100%; height:100%; background:#eee; text-align:center; z-index: 9010;'></div>	</div></div>
 
 <div id="g_main" class='g_main g_col2 g_mainManage manageTranTop ' style='top:86px' >
     <div id="web" class="g_web g_webManage">
@@ -1161,7 +1093,7 @@
             <tr>
                 <td align="center">
                     <div id="webTop" class="webTop">
-                        <div id='corpTitle' class='corpTitle corpTitle2' fontPatternTitle='false' style='top:38px;left:2px;;'  _linkType='0' ><div class='J_simpleText_corpTitle simpleText'><b><span style=""><font face="新细明体, PMingLiU"><div style="" class="newPrimaryTitle"><span style="color: rgb(228, 57, 60);">天天网上书店<br></span></div></font></span></b></div></div><div id='logo'  class='logo logo2' style='display:none;' onclick = 'Site.editLogoPicFunc();' _defaultLogo = '1'><a id='logoLink' hidefocus='true' class='link-p' link='javascript:;' onclick='return false;'><img id='logoImg'  title='-' alt='-' style='float:left;'  src='//0.ss.faisys.com/image/default/tj-logo.png?v=201708021545'/></a></div>
+                        <div id='corpTitle' class='corpTitle corpTitle2' fontPatternTitle='false' style='top:38px;left:2px;;'  _linkType='0' ><div class='J_simpleText_corpTitle simpleText'><b><span style=""><font face="新细明体, PMingLiU"><div style="" class="newPrimaryTitle"><span style="color: rgb(228, 57, 60);">天天网上书城<br></span></div></font></span></b></div></div><div id='logo'  class='logo logo2' style='display:none;' onclick = 'Site.editLogoPicFunc();' _defaultLogo = '1'><a id='logoLink' hidefocus='true' class='link-p' link='javascript:;' onclick='return false;'><img id='logoImg'  title='-' alt='-' style='float:left;'  src='//0.ss.faisys.com/image/default/tj-logo.png?v=201708021545'/></a></div>
 
                     </div>
                 </td>
@@ -1190,14 +1122,14 @@
                                         <div class='itemContainer'>
                                             <div title='' id='nav2' class='item itemCol2 itemIndex1' colId='2'  onclick='Site.redirectUrl("/", "_self", event, 1, 0);' _jump='window.open("/", "_self")'>
                                                 <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='/' onclick="return false;"><span class='itemName0'>首页</span></a></div></div>
-                                            <div class='itemSep'></div><div title='' id='nav103' class='item itemCol103 itemIndex2' colId='103'  onclick='Site.redirectUrl("/col.jsp?id=103", "_self", event, 1, 0);' _jump='window.open("/col.jsp?id=103", "_self")'>
-                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='/col.jsp?id=103' onclick="return false;"><span class='itemName0'>热销图书</span></a></div></div>
-                                            <div class='itemSep'></div><div title='' id='nav104' class='item itemCol104 itemIndex3' colId='104'  onclick='Site.redirectUrl("/col.jsp?id=104", "_self", event, 1, 0);' _jump='window.open("/col.jsp?id=104", "_self")'>
-                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='/col.jsp?id=104' onclick="return false;"><span class='itemName0'>推荐商品</span></a></div></div>
-                                            <div class='itemSep'></div><div title='' id='nav105' class='item itemCol105 itemIndex4' colId='105'  onclick='Site.redirectUrl("/col.jsp?id=105", "_self", event, 1, 0);' _jump='window.open("/col.jsp?id=105", "_self")'>
-                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='/col.jsp?id=105' onclick="return false;"><span class='itemName0'>热卖商品</span></a></div></div>
-                                            <div class='itemSep'></div><div title='' id='nav106' class='item itemCol106 itemIndex5' colId='106'  onclick='Site.redirectUrl("/col.jsp?id=106", "_self", event, 1, 0);' _jump='window.open("/col.jsp?id=106", "_self")'>
-                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='/col.jsp?id=106' onclick="return false;"><span class='itemName0'>服务支持</span></a></div></div>
+                                            <div class='itemSep'></div><div title='' id='nav103' class='item itemCol103 itemIndex2' colId='103'>
+                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='col?id=103'><span class='itemName0'>热销图书</span></a></div></div>
+                                            <div class='itemSep'></div><div title='' id='nav104' class='item itemCol104 itemIndex3' colId='104' >
+                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='col?id=104' ><span class='itemName0'>推荐商品</span></a></div></div>
+                                            <div class='itemSep'></div><div title='' id='nav105' class='item itemCol105 itemIndex4' colId='105' >
+                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='col?id=105'><span class='itemName0'>热卖商品</span></a></div></div>
+                                            <div class='itemSep'></div><div title='' id='nav106' class='item itemCol106 itemIndex5' colId='106'>
+                                            <div class='itemCenter'><a hidefocus='true' style='outline:none;' href='col?id=106';><span class='itemName0'>服务支持</span></a></div></div>
                                         </div>
                                         <div class='itemNext'></div>
                                     </div>
@@ -1449,9 +1381,9 @@
                                                                             </div></div>
                                                                             </div>
                                                                         </div>
-                                                                        <div id='module323' bannerTitle='图片' _indexClass='' _moduleType='1' _modulestyle='79' _moduleid='323'  class='form form323 formStyle79 extformClass ' title='' _sys='0' _banId='' style='position:absolute;top:375px;left:664px;width:128px;' _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='0' _inpack='316' _inpopupzone='0' _autoHeight='0' _global='false' _independent='false' >
+                                                                        <div id='module323' bannerTitle='图片' _indexClass='' _moduleType='1' _modulestyle='79' _moduleid='323'  class='form form323 formStyle79 extformClass ' title='' _sys='0' _banId='' style='position:absolute;top:375px;left:664px;width:22px;' _side='0' _inTab='0' _inMulMCol='0' _inFullmeasure='0' _inpack='316' _inpopupzone='0' _autoHeight='0' _global='false' _independent='false' >
                                                                             <div class='formWrap formWrap323' ><div class='lightModuleOuterContent lightModuleOuterContent323'><div class='floatImg floatImg_J floatImg_J_special'><a hidefocus='true' class='J_floatImg_jump f_floatImg_jump floatImgALink' href='pd.jsp?id=18#_jcp=2' target='_blank'>
-                                                                                <div class='floatImgWrap'><div class='forMargin'><img id='float_img_323' class='float_in_img J_defImage ' src='//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgyOf_0AUolq7K9QIwgAE4XA.png'  alt='AD0ItuO0BxAEGAAgyOf_0AUolq7K9QIwgAE4XA' /></div></div></a>
+                                                                                <div class='floatImgWrap'><div class='forMargin'><img id='float_img_323' class='float_in_img J_defImage ' src='//2.ss.faisys.com/image/materialLib/icon/2000048.gif?v=201712181555'  alt='_faiMaterial_2000048' /></div></div></a>
                                                                             </div></div>
                                                                             </div>
                                                                         </div>
@@ -3430,7 +3362,7 @@ EMS
                     <div id="footerResizeWarp" class="footerResizeWarp">
 
                         <div id="webFooter" class="webFooter">
-                            <div id='footer' class='footer' ><table class='footerTop' cellpadding='0' cellspacing='0'><tr valign='top'><td class='topLeft'></td><td class='topCenter'></td><td class='topRight'></td></tr></table><table class='footerMiddle' cellpadding='0' cellspacing='0'><tr valign='top'><td class='middleLeft'></td><td class='middleCenter' align='center'><div class='footerContent'><div class='footerInfo footerInfoV2 J_footerInfo' style='display:none;'>©2018 - 版权所有</div><div class='footerSupport' id='footerSupport'><span class='footerMobile J_supportItem'><a hidefocus='true' href='http://m.sj15668681.icoc.bz' target='_blank'>手机版</a></span>       <span class='footerSep J_footerSep'>|</span>               <span class='footerFaisco J_supportItem'>本站使用<a hidefocus='true' href='http://jz.fkw.com/?_ta=4' onclick='Site.logDog(100065, 0);' target='_blank'><span class='faisco-icons-logo' id='faisco-icons-logo' style='padding-left:2px;padding-right:2px;position:relative;top:2px;'></span>凡科建站</a><span style='padding-left:8px;'>搭建</span></span>       <span class='footerSep J_footerSep'>|</span>           <span id='footerLogin' class='footerLogin J_supportItem'><a name='popupLogin' hidefocus='true' href='http://i.fkw.com?cacct=sj15668681' onclick='Fai.closeTip("#footerLogin");Site.setCookieFlag(37, true);'>管理登录</a></span>                    <span class='bgplayerButton' id='bgplayerButton' style='display:none;'></span></div></div></td><td class='middleRight'></td></tr></table><table class='footerBottom' cellpadding='0' cellspacing='0'><tr valign='top'><td class='bottomLeft'></td><td class='bottomCenter'></td><td class='bottomRight'></td></tr></table></div>
+                            <div id='footer' class='footer' ><table class='footerTop' cellpadding='0' cellspacing='0'><tr valign='top'><td class='topLeft'></td><td class='topCenter'></td><td class='topRight'></td></tr></table><table class='footerMiddle' cellpadding='0' cellspacing='0'><tr valign='top'><td class='middleLeft'></td><td class='middleCenter' align='center'><div class='footerContent'><div class='footerInfo footerInfoV2 J_footerInfo' style='display:none;'>©2018 - 版权所有</div><div class='footerSupport' id='footerSupport'><span class='footerMobile J_supportItem'><a hidefocus='true' href='http://m.sj15668681.icoc.bz' target='_blank'>手机版</a></span>       <span class='footerSep J_footerSep'>|</span>               <span class='footerFaisco J_supportItem'>本站使用<a hidefocus='true' href='http://jz.fkw.com/proFree.html?_ta=2514' onclick='Site.logDog(100065, 0);' target='_blank'><span class='faisco-icons-logo' id='faisco-icons-logo' style='padding-left:2px;padding-right:2px;position:relative;top:2px;'></span>凡科建站</a><span style='padding-left:8px;'>搭建</span></span>       <span class='footerSep J_footerSep'>|</span>           <span id='footerLogin' class='footerLogin J_supportItem'><a name='popupLogin' hidefocus='true' href='http://i.fkw.com?cacct=sj15668681' onclick='Fai.closeTip("#footerLogin");Site.setCookieFlag(37, true);'>管理登录</a></span>                    <span class='bgplayerButton' id='bgplayerButton' style='display:none;'></span></div></div></td><td class='middleRight'></td></tr></table><table class='footerBottom' cellpadding='0' cellspacing='0'><tr valign='top'><td class='bottomLeft'></td><td class='bottomCenter'></td><td class='bottomRight'></td></tr></table></div>
 
                         </div>
 
@@ -3503,6 +3435,15 @@ EMS
 </div>
 
 <div class="fk-funPanelArea" id="fk-funPanelArea" v-show="!global.hideTopBar">
+    <div class="fk-funPanelEntry" id="fk-funPanelEntry">
+        <transition name="component-fade" mode="out-in">
+            <keep-alive>
+                <template  v-if="!panelOpen">
+                    <fk-funpanelentry :panelopen="panelOpen" @entrybtnclick="entryBtnClick" @entrybtnposchange="entryBtnPosChange"></fk-funpanelentry>
+                </template>
+            </keep-alive>
+        </transition>
+    </div>
     <div class="fk-funPanel" id="fk-funPanel">
         <transition name="component-fade" mode="out-in">
             <keep-alive>
@@ -3530,115 +3471,12 @@ EMS
 
 
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-core.min.js?v=201803211014"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-mousewheel.min.js?v=201408111734"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/fai.min.js?v=201804231138"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-ui-core.min.js?v=201804231138"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/site.min.js?v=201804281210"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/locale/2052.min.js?v=201803191139"></script>
-
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/ZeroClipboard/ZeroClipboard.min.js?v=201212061014"></script>
-
-
-
-
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/faiui.min.js?v=201804231138"></script>
+<script type="text/javascript" src="//1.ss.faisys.com/js/site.min.js?v=201804281102"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/manage.min.js?v=201804261210"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/colorpicker/colorpicker.min.js?v=201804081318"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/fkeditor/fkeditor.min.js?v=201711081430"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/fkeditor/fkeditor2.min.js?v=201804231138"></script>
-
-
-
-
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-contextMenu.min.js?v=201601181713"></script>
-
-
-
-<script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-effects.min.js?v=201801151214"></script>
-
-
-
-
-<script type="text/javascript" src="//1.ss.faisys.com/js/promotion.min.js?v=201512071738"></script>
-
 <script type='text/javascript' src='//1.ss.faisys.com/js/comm/jquery/jquery-menu-aim.min.js?v=201711071637'></script>
-
-
-
-<script type="text/javascript">
-
-
-    var mainDomainId = -1;
-    var fk_sale = {};
-    fk_sale._proSiteQueryStr = 'proSite=true';
-    fk_sale.cid = 16351048;
-    fk_sale.siteVer = 10;
-    fk_sale.popupWindowSiteVer = 10;
-    fk_sale.isLuckyGuyFlag = true;
-    fk_sale.popupWindowEndYear = 2018;
-    fk_sale.popupWindowEndMonth = 1;
-    fk_sale.popupWindowEndDay = 31;
-    fk_sale.popupWindowDays = -85;
-    fk_sale.popupWindowMs = -7424927093;
-    fk_sale.openDays = 2;
-    fk_sale.openMinutes = 3389;
-    fk_sale.popupWindowEndSignupHours = 720.0;
-
-    var queryStr = "";
-    if(fk_sale._proSiteQueryStr !== void 0 && fk_sale._proSiteQueryStr !== ""){
-        queryStr = '&' + fk_sale._proSiteQueryStr;
-    }
-
-    fk_sale.url = 'http://i.fkw.com/portal.jsp?buySiteVer=true'+ queryStr +'#appId=shop';
-    fk_sale.showDomainWindowFlag = false;
-    fk_sale.cacct = 'sj15668681';
-    //fk_sale.imgBigSrc = '.../images/salesPromotion.png';
-    //fk_sale.imgBigBtn = '//jz.faisys.com/image/pro/20170101/btn_buy.png?v=201701101133';
-    //fk_sale.imgClose = '//jz.faisys.com/image/pro/20170101/close.png?v=201701101133';
-    fk_sale.siteFirstLogin = false;
-    fk_sale.isShowAdvertisementWindowThreeMinute = true;
-    fk_sale.textUrl = 'http://i.fkw.com/portal.jsp?buySiteVer=true'+ queryStr +'#appId=shop';
-    //fk_sale.domainImgBigBg = '//jz.faisys.com/image/pro/20160101/domainSearchImg.png';
-    fk_sale.showSiteBizWindow = false;
-    fk_sale.showSitePopWindow = false;
-    fk_sale.openFlyer = false;
-
-
-</script>
-<link type='text/css' href='//2.ss.faisys.com/css/site/drawLottery.min.css?v=201804251043' rel='stylesheet' />
-<script type='text/javascript' src='//1.ss.faisys.com/js/drawLottery.min.js?v=201804242317'></script>
-
-
-<style  type="text/css">
-    .drawLottery, .getLottery {font-family: "Miscrosoft YaHei","微软雅黑","宋体";position: absolute;}
-    .drawLottery {font-size: 12px; color: #fff;}
-    .dl_commitContainer {width: 100%;position: absolute;left: 0;text-align: center;}
-    .dl_commit {text-indent: -99999px;outline: none;display: block;margin: 0 auto; }
-    .dl_commit:hover{background:url(//jz.faisys.com/image/pro/20170101/btn_buy.png?v=201701101133)0px -46px no-repeat !important;}
-    .S_promotionClose{transition: transform ease .3s; -moz-transition: -moz-transform ease .3s; -webkit-transition: -webkit-transform ease .3s; -o-transition: -o-transform ease .3s;}
-    .S_promotionClose:hover{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);}
-</style>
-
-<script type='text/javascript' src='//1.ss.faisys.com/js/salesPromotionTime.min.js?v=201804242317'></script>
-
-
-
 <div class='siteAdvertisement_box ' id='fkdz_Ad' style='display:none;'>	<div class='siteAdvertisement_Inner'>		<div class='siteAdvertisement_title'>			<a class='closeImg' href='javascript:void(0)'></a>		</div>		<a target='_blank' href='http://i.fkw.com/portal.jsp#appId=corpGroupBuy&productId=179'  class='siteAdvertisement_adImg' onclick='Site.logDog(4000067,3)'  style='display:block; width: auto; height: auto;'>			<img src='//jz.faisys.com/image/index/fkdzSmallBg.png?v=201709011714' alt='轻松建网站' />		</a>		<a class='mobi_ad_bg' target='_blank' href='http://i.fkw.com/portal.jsp#appId=corpGroupBuy&productId=179' onclick='Site.logDog(4000067,3)'></a>	</div>	<div class='moreAndTime'></div>	<div class='siteAdvertisement_boxTip'></div></div><script type='text/javascript'>$(function(){	var oldWindowOnload = window.onload;	window.onload = function(){		if(typeof oldWindowOnload == 'function'){			oldWindowOnload();		}		var sitetipsHeight = $('#sitetips').css('height');		$('.J_getLottery').css('top', '+='+sitetipsHeight+'');		$('.drawLottery').css('top', '+='+sitetipsHeight+'');		$('.navbar_right .upgrade').click(function(){			var hasGetLuckyGuy = $.cookie('_hasGetLuckyGuy_',{path:'/'});			var hasShowSalesPromotion = $.cookie('hasShowSalesPromotion');			var portalDomain = 'fkw.com';			var hasShopFromCookie = $.cookie('shopFrom') == 'jzPro';				if(hasGetLuckyGuy == 'true'){					!hasShopFromCookie && $.cookie('shopFrom', 'site', {domain:portalDomain, path:'/', expires:1});					Site.logDog(4000004, 0);					window.open('http://i.fkw.com/jump.jsp?t=3&d=100097&s=4&_f=12&siteSid=0');				}else{					Site.drawLottery();				}		});	}});if( $.cookie('faiscoAd') == 'true'){$('.siteAdvertisement_box').show();}$('#sitePopVister').show();</script>
-
-<link type='text/css' href='//2.ss.faisys.com/css/fontsIco.min.css?v=201804251157' rel='stylesheet' />
-<link type='text/css' href='//2.ss.faisys.com/css/login.min.css?v=201801291552' rel='stylesheet' />
-<script type="text/javascript">
-    var _webRightBarMyItemList = []
-    var _extendParam = {"skipUrl":"index.jsp","isPhotoGroup":false}
-    $(function(){
-        if(true){
-            $LAB.script('//1.ss.faisys.com/js/module_webRightBar.min.js?v=201804041651').wait(function(){
-                new Site.webRightBar.init(false,true, '￥', {"imgPath":"//0.ss.faisys.com/image/tx3.png","imgStyle":""});
-            });
-        }
-
-    });
-</script>
 
 <div id='J_WebRightBar' class='fk-rbar-outer'  style='display:none;'><div class='fk-rbar fk-rbar-border'><div class='fk-rbar-tabs fk-rbar-tabs-border' id='J_WebRightBarList'><div id='J_fk-rbar-edit' class=' fk-rbar-edit-v2 '><div class='item'><a class='btn' href='javascript:;' data-title-tip='编辑' onclick="Site.popupWindow({title:'网站侧栏',frameSrcUrl:'manage/webRightBarSetting.jsp?ram='+Math.random(),width:'610',height:'692',frameScrolling: 'no',saveBeforePopup:false,version:2});Site.removeAllEditLayer();">编辑</a></div><div class='fk-rbar-splitLine'></div><div class='item'><a class='btn hide' href='javascript:;' data-title-tip='隐藏' >隐藏</a></div></div><div class='fk-rbar-memLogPanel' id='memberLoginPanel' style='height:361px'><div class='J_memberLoginPanel rbar-logPanel'>
     <div class='rbar-loginTitle'>
@@ -3661,7 +3499,7 @@ EMS
         </div>
     </div>
     <div class='signup'>
-        <a class='regAcct' hidefocus='true' href='javascript:;'return false;' >免费注册></a>
+        <a class='regAcct' hidefocus='true' href='javascript:;' onclick='Site.memberSignup("/index.jsp");return false;' >免费注册></a>
     </div>
 </div>
     <div class='splitLine'></div>
@@ -3670,14 +3508,75 @@ EMS
         <a id='rb_wxLogin' href='javascript:;' hidefocus='true' class='thirdPartyItem wx' onclick='Fai.ing("您目前处于网站管理状态，请先点击网站右上方的“退出”后再登录会员。", true)' ></a>
     </div>
     <div class='fk-login-triangle'>◆</div></div><div class='fk-rbar-profileItem fk-rbar-items' id='rbar_myProfile' style=''><div class='fk-rbar-profileItem-logo1 icon_font faisco-icons-contact2 J_fk-rb-icon-myProfile' id='rbarProfileIcon' ></div><div class='fk-rbar-item-tip' id='J_rbarProfileTip'>我的资料<div class='fk-triangle'>◆</div></div></div><div class='fk-rbar-onlineSerItem fk-rbar-items fk-sort-onlineService' id='rbar_onlineSer' style='display:none'><div class='fk-rbar-onlineSerItem-logo icon_font faisco-icons-message5 J_fk-rb-icon-onlineService' id='rbarOnlineSerIcon' ></div><div class='fk-rbar-onlineSerList' id='onlineSerList' style='display:none'><div class='fk-rbar-serOnline-service' id='J_webRightBar_SerList'><div class='fk-rbar-serOnline-list-v lineH-21'><a class='serOnline-list-line' title='10000' hidefocus='true' href='//wpa.qq.com/msgrd?v=3&uin=10000&site=qq&menu=yes' target='_blank'><span class='serOnline-img qqImg0'>&nbsp;</span><span class='serList-text'>客服一</span></a></div><div class='fk-rbar-serOnline-list-v lineH-21'><a class='serOnline-list-line' title='10000' hidefocus='true' href='//wpa.qq.com/msgrd?v=3&uin=10000&site=qq&menu=yes' target='_blank'><span class='serOnline-img qqImg0'>&nbsp;</span><span class='serList-text'>客服一</span></a></div></div><div class='fk-qr-triangle'>◆</div></div></div><div id='J_rbarBottomPart' class='fk-rbar-bottomPart' ><div class='fk-rbar-feedBackItem fk-rbar-items' id='rbar_feedBack' style=''><div class='fk-rbar-feedBackItem-logo icon_font faisco-icons-write J_fk-rb-icon-feedback' id='rbarFeedbackIcon' ></div><div class='fk-rbar-item-tip' id='J_rbarFeedbackTip'>留言<div class='fk-triangle'>◆</div></div></div><div class='fk-rbar-mobiItem fk-rbar-items' id='rbar_mobi' style=''><div class='fk-rbar-mobiItem-logo icon_font faisco-icons-qrcode2 J_fk-rb-icon-mobiWeb' id='rbarMobiIcon' ></div><div class='qrCodeImgPanel' id='qrImgPanel' style='display:none'><div class='qrCodeViewPanel'><img alt=' ' title='手机端二维码' src='/qrCode.jsp?cmd=mobiQR&_s=80&lanCode=cn'></div><div class='qrCodeTip'>查看手机网站</div><div class='fk-qr-triangle'>◆</div></div></div><div class='fk-rbar-backTopItem' id='rbar_backTop' style=''><div class='fk-rbar-backTop-logo icon_font faisco-icons-top J_fk-rb-icon-backTop' id='rbarBackTopIcon' ></div><div class='fk-rbar-item-backTopTip' id='J_rbarBackTopTip'>回到顶部<div class='fk-triangle'>◆</div></div></div></div></div><div class='fk-rbar-plugins' id='fk-rbar-plugins'><div class='fk-rbar-plugHead'><div class='fk-rbar-plugTitle' id='rightSideBarTitle'></div><div class='fk-rbar-plugBack' id='rightSideBarBack'></div></div><div class='fk-rbar-profileBody' id='pluginsProfileBody'></div><div class='fk-rbar-collectBody' id='pluginsCollectBody'></div><div class='fk-rbar-cartBody' id='pluginsCartBody'></div></div></div></div>
-
 <script type="text/javascript">
 
+    Fai.top = window;
+    var _Global = {},
+        bgmCloseToOpen = false,
+        statId = -1,
+        _debug = false,
+        _isPre = false,
+        _devMode = false,
+        _colOtherStyleData = {"independentList":[],"hh":false,"fh":false,"y":0,"h":0,"layout4Width":0,"layout5Width":0},						// 当前页面的数据
+        _templateOtherStyleData = {"h":480,"independentList":[],"hh":false,"fh":false,"y":0,"layout4Width":0,"layout5Width":0},			// 全局的数据
+        _allowedHtmlUrl = false,
+        _openHtmlUrl = false,
+        _advertType = 1,
         _isBUser = false;
 
+
+
+
+    var _homeHost = "www.fkw.com";
+
+
+    var _templateDefLayout = {BANNER_NAV:0,NAV_FLOAT:1,LEFT_NAV_BANNER_RIGHT_HIDE:3,LEFT_NAV_CENTER_BANNER_RIGHT_HIDE:4,LEFT_BANNER_NAV_RIGHT_HIDE:5,LEFT_NAV_EXPEND_CENTER_BANNER:6,CENTER_TOP_BANNER_RIGHT_HIDE:7,LEFT_HIDE_CENTER_TOP_BANNER:8,NAV_FLOAT_ON_BANNER:9,NAV_BANNER:10};
+
     $(function() {
+
+        Site.currentProgress(20);
+
+        Site.ajaxLoadModuleDom(2, 0, {"_ajaxLoadModuleList":[],"_partDomInfoList":[],"fullUrl":"http://sj15668681.jz.fkw.com/"});
+
+        Site.showOrHideMailBox();
+
+        Site.setCookieFlag(41, false);
+
+
+        Site.loginSiteInit('sj15668681','fkw.com', false,"");
+
+        //保留旧用户的初始化版式区域4 和区域5 中，区域4的padding-right空间
+        Site.colLayout45Width();
+        //各个模块inc吐出脚本
         jzUtils.run({'name':'initModuleMallGroup','base':Site, 'callMethod':true}, 317,'red',2,0,1,7,'#f13a3a','#000');jzUtils.run({'name':'addModuleContextMenu', 'callMethod':true}, {"id":317,"moduleOperateList":[{"iconClass":"copy","text":"复制模块","evalScript":"Site.copyModule(317,26,97);"}],"moduleStateList":[{"iconClass":"dockModule","text":"停靠模块","statusScript":"Site.getDockStatus2('module317');","evalScript":"Site.moduleStateSwitch('module317', 1);"},{"iconClass":"absModule","text":"浮动模块","statusScript":"Site.getAbsStatus2('module317');","evalScript":"Site.moduleStateSwitch('module317', 5);"}],"moduleDirectionList":[{"iconClass":"mtop","text":"上移模块","statusScript":"Site.getModulePosTop('module317');","evalScript":"Site.moveLayoutModuleVerticalOrder('up', 'module317');"},{"iconClass":"mbottom","text":"下移模块","statusScript":"Site.getModulePosBottom('module317');","evalScript":"Site.moveLayoutModuleVerticalOrder('down', 'module317');"},{"iconClass":"mleft","text":"左移模块","statusScript":"Site.getModulePosLeft('module317');","evalScript":"Site.moveModulePosLeft('module317');"},{"iconClass":"mright","text":"右移模块","statusScript":"Site.getModulePosRight('module317');","evalScript":"Site.moveModulePosRight('module317');"},{"iconClass":"mtop","text":"跳到中间","statusScript":"Site.getAbsMiddleStatus('module317');","evalScript":"Site.absModuleSwitch('mtop','module317');"},{"text":"跳到底部","statusScript":"Site.getAbsBottomStatus('module317');","evalScript":"Site.absModuleSwitch('mbottom', 'module317');"},{"iconClass":"mzindex","text":"浮到最前","statusScript":"Site.getAbsZIndexStatus('module317');","evalScript":"Site.absZIndexModule('module317');"}],"moduleOtherList":[{"iconClass":"tickGlobal","text":"设为全站模块","evalScript":"Site.setGlobalModule(317, false);","statusScript":"Site.getLayoutItemStatus('module317');"},{"text":"本页独立布局","title":"该模块在本页面独立布局。","iconClass":"independent","evalScript":"Site.independentModule(317, true);","statusScript":"Site.getIndependentStatus('module317');"}]});
+
+        Site.initModulePhotoSwitch(318, {"data":[{"name":"","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgpuX_0AUoh6X3mAQwmwY4xgI.png","width":795,"height":326,"widthOr":792,"heightOr":325,"pic":"AD0ItuO0BxAEGAAgpuX_0AUoh6X3mAQwmwY4xgI"},{"name":"","target":"_blank","src":"//15544758.s61i.faiusr.com/2/AD0ItuO0BxACGAAgt_X_0AUopojQ2wUwmwY4xgI.jpg","width":795,"height":326,"widthOr":792,"heightOr":325,"pic":"AD0ItuO0BxACGAAgt_X_0AUopojQ2wUwmwY4xgI"},{"name":"","target":"_blank","src":"//2.ss.faisys.com/image/materialLib/illustration/000128.jpg?v=201712181555","width":520,"height":320,"widthOr":528,"heightOr":325,"pic":"_faiMaterial_000128"}],"btnType":2,"width":795,"height":325,"playTime":4000,"animateTime":1500,"showImageName":false,"switchWrapName":false,"moduleId":"photoSwitch318","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":true,"nameWordWrap":false,"widthOr":795,"heightOr":326},2,'carouselPhotos');
+        Fai.top.carouselPhotos318 = {id:318,style:91, data:{"data":[{"name":"","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgpuX_0AUoh6X3mAQwmwY4xgI.png","width":795,"height":326,"widthOr":792,"heightOr":325,"pic":"AD0ItuO0BxAEGAAgpuX_0AUoh6X3mAQwmwY4xgI"},{"name":"","target":"_blank","src":"//15544758.s61i.faiusr.com/2/AD0ItuO0BxACGAAgt_X_0AUopojQ2wUwmwY4xgI.jpg","width":795,"height":326,"widthOr":792,"heightOr":325,"pic":"AD0ItuO0BxACGAAgt_X_0AUopojQ2wUwmwY4xgI"},{"name":"","target":"_blank","src":"//2.ss.faisys.com/image/materialLib/illustration/000128.jpg?v=201712181555","width":520,"height":320,"widthOr":528,"heightOr":325,"pic":"_faiMaterial_000128"}],"btnType":2,"width":795,"height":325,"playTime":4000,"animateTime":1500,"showImageName":false,"switchWrapName":false,"moduleId":"photoSwitch318","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":true,"nameWordWrap":false,"widthOr":795,"heightOr":326}};
+        Site.cacheModuleFunc.init('moduleCarouselPhotosItemManage.init', {'photoIdList':[{"id":"AD0ItuO0BxAEGAAgpuX_0AUoh6X3mAQwmwY4xgI","description":"","check":"3","lide":""},{"id":"AD0ItuO0BxACGAAgt_X_0AUopojQ2wUwmwY4xgI","description":"","check":"3","lide":""},{"id":"_faiMaterial_000128","description":"","check":"","lide":""}],'moduleId':318,'colId':2,'extId':0,'styleId':91,'moduleName':'轮播多图','openType':true,'isBindPhotoGroup':false});
+        Site.cacheModuleFunc.init('photoDisplayFunc.checkPhotosDisplayModuleData', 318);
+
+        Site.initProductListTopFlag({moduleId:345, productParent:'product-gallery-container345',product:'product-container'});Site.loadProductGallery({id: 345,scale:2,cus:true, effType: 1,paramLayoutType: 2,heightCorrect: 0});jzUtils.run({ "name": "ImageEffect.FUNC.BASIC.Init", "callMethod": true }, {"moduleId": 345, "imgEffOption": {"effType":1,"borderType":false,"backgroundType":false,"backgroundHalfType":false,"wordType":false,"borderColor":"","borderWidth":1,"borderStyle":1,"fullmaskBackgroundColor":"","fullmaskBackgroundOpacity":80,"fullmaskWordResize":12,"fullmaskWordStyle":"","fullmaskWordColor":"","halfmaskBackgroundColor":"","halfmaskBackgroundOpacity":80,"style":30,"ns":2}, "tagetOption": {"productTextCenter":true,"productNameWordWrap":false,"productNameShow":true,"propNameShow":false,"mallShowBuy":false,"targetParent":"product-container","target":"img-container","paramLayoutType":2,"mallBuyBtnType":0,"mallBuyBtnColor":"#f13a3a","imgAlignFix":false}, "callback": Site.createImageEffectContent_product, "callbackArgs": [{"m345gp6":"[{\"propName\":\"价格\",\"propValue\":\"25.0\",\"type\":11,\"allowed\":true}]","productName":"追风筝的人","productBuyBtnText":"购买","hasDiscount":false,"tmpPropPrice":"25.0","tmpPropName":""},{"m345gp5":"[{\"propName\":\"价格\",\"propValue\":\"24.2\",\"type\":11,\"allowed\":true}]","productName":"围城","productBuyBtnText":"购买","hasDiscount":false,"tmpPropPrice":"24.2","tmpPropName":""}]});Fai.top.productList345 = {id:345,style:30, data:{"cusPicSize":true,"picScale":2,"cusPicMargin":false,"nameHidden":false,"nameWordWrap":false,"textCenter":false,"width":150,"height":120,"imgEffType":1,"paramLayoutType":2,"ieOpt":{"effType":1,"borderType":false,"backgroundType":false,"backgroundHalfType":false,"wordType":false,"borderColor":"","borderWidth":1,"borderStyle":1,"fullmaskBackgroundColor":"","fullmaskBackgroundOpacity":80,"fullmaskWordResize":12,"fullmaskWordStyle":"","fullmaskWordColor":"","halfmaskBackgroundColor":"","halfmaskBackgroundOpacity":80,"style":30,"ns":2},"tgOpt":{"productTextCenter":true,"productNameWordWrap":false,"productNameShow":true,"propNameShow":false,"mallShowBuy":false,"targetParent":"product-container","target":"img-container","paramLayoutType":2,"mallBuyBtnType":0,"mallBuyBtnColor":"#f13a3a","imgAlignFix":false},"callbackArgs":[{"m345gp6":"[{\"propName\":\"价格\",\"propValue\":\"25.0\",\"type\":11,\"allowed\":true}]","productName":"追风筝的人","productBuyBtnText":"购买","hasDiscount":false,"tmpPropPrice":"25.0","tmpPropName":""},{"m345gp5":"[{\"propName\":\"价格\",\"propValue\":\"24.2\",\"type\":11,\"allowed\":true}]","productName":"围城","productBuyBtnText":"购买","hasDiscount":false,"tmpPropPrice":"24.2","tmpPropName":""}],"propSet":{"smp":true}}};
+
+        Site.cacheModuleFunc.init('initSimpleText',{"moduleId":346,"moduleTitle":"文本","moduleStyle":86,"breakWord":true});
+
+        Site.initModulePhotoSwitch(356, {"data":[{"name":"乔布斯传 中译版","href":"pd.jsp?id=8#_jcp=2","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgvOmD0QUo1ev4UDDIAjjcAQ.png","width":328,"height":220,"widthOr":325,"heightOr":217,"pic":"AD0ItuO0BxAEGAAgvOmD0QUo1ev4UDDIAjjcAQ"}],"btnType":2,"width":325,"height":220,"playTime":4000,"animateTime":1500,"showImageName":true,"switchWrapName":false,"moduleId":"photoSwitch356","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":false,"nameWordWrap":false,"widthOr":328,"heightOr":220},2,'carouselPhotos');
+        Fai.top.carouselPhotos356 = {id:356,style:91, data:{"data":[{"name":"乔布斯传 中译版","href":"pd.jsp?id=8#_jcp=2","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgvOmD0QUo1ev4UDDIAjjcAQ.png","width":328,"height":220,"widthOr":325,"heightOr":217,"pic":"AD0ItuO0BxAEGAAgvOmD0QUo1ev4UDDIAjjcAQ"}],"btnType":2,"width":325,"height":220,"playTime":4000,"animateTime":1500,"showImageName":true,"switchWrapName":false,"moduleId":"photoSwitch356","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":false,"nameWordWrap":false,"widthOr":328,"heightOr":220}};
+        Site.cacheModuleFunc.init('moduleCarouselPhotosItemManage.init', {'photoIdList':[{"id":"AD0ItuO0BxAEGAAgvOmD0QUo1ev4UDDIAjjcAQ","description":"乔布斯传 中译版","check":"2","lide":"AGUICBIA"}],'moduleId':356,'colId':2,'extId':0,'styleId':91,'moduleName':'轮播多图','openType':false,'isBindPhotoGroup':false});
+        Site.cacheModuleFunc.init('photoDisplayFunc.checkPhotosDisplayModuleData', 356);
+
+        Site.initModulePhotoSwitch(366, {"data":[{"name":"镀金定制钢笔","href":"pd.jsp?id=28#_jcp=2","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgvYqE0QUo0OGEHzD9AjjIAg.png","width":381,"height":328,"widthOr":381,"heightOr":328,"pic":"AD0ItuO0BxAEGAAgvYqE0QUo0OGEHzD9AjjIAg"}],"btnType":2,"width":382,"height":328,"playTime":4000,"animateTime":1500,"showImageName":true,"switchWrapName":false,"moduleId":"photoSwitch366","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":false,"nameWordWrap":false,"widthOr":381,"heightOr":328},2,'carouselPhotos');
+        Fai.top.carouselPhotos366 = {id:366,style:91, data:{"data":[{"name":"镀金定制钢笔","href":"pd.jsp?id=28#_jcp=2","target":"_blank","src":"//15544758.s61i.faiusr.com/4/AD0ItuO0BxAEGAAgvYqE0QUo0OGEHzD9AjjIAg.png","width":381,"height":328,"widthOr":381,"heightOr":328,"pic":"AD0ItuO0BxAEGAAgvYqE0QUo0OGEHzD9AjjIAg"}],"btnType":2,"width":382,"height":328,"playTime":4000,"animateTime":1500,"showImageName":true,"switchWrapName":false,"moduleId":"photoSwitch366","picScale":2,"cusPicSize":true,"manuallyCarousel":false,"nameHidden":false,"nameWordWrap":false,"widthOr":381,"heightOr":328}};
+        Site.cacheModuleFunc.init('moduleCarouselPhotosItemManage.init', {'photoIdList':[{"id":"AD0ItuO0BxAEGAAgvYqE0QUo0OGEHzD9AjjIAg","description":"镀金定制钢笔","check":"2","lide":"AGUIHBIA"}],'moduleId':366,'colId':2,'extId':0,'styleId':91,'moduleName':'轮播多图(1)','openType':false,'isBindPhotoGroup':false});
+        Site.cacheModuleFunc.init('photoDisplayFunc.checkPhotosDisplayModuleData', 366);
+
+        //如果有首页弹窗的话，需要先打开首页弹窗
+
+        setTimeout(afterModuleLoaded, 0);
     });
+
+    function afterModuleLoaded() {
+        Site.cacheModuleFunc.runSiteInit();
+    } // afterModuleLoaded end
 
     var _lcid = 2052,
         _siteDomain = '//sj15668681.jz.fkw.com',
@@ -3691,211 +3590,8 @@ EMS
         _manageStatus = false;
 </script>
 
-<%--<script type="text/javascript">
-
-    var fk_old_onload = window.onload;
-    $(window).load(function(){
-
-
-
-
-
-
-
-        if(typeof fk_old_onload == "function"){
-            fk_old_onload.apply(this, arguments);
-        }
-
-
-
-
-
-        Site.userReadyOperateManage();
-
-        Site.pageOnload();
-
-        Site.demandLoadCss("//2.ss.faisys.com/css/productSlide.min.css?v=201804231138");
-
-
-
-        Site.demandLoadCss("//2.ss.faisys.com/css/site/faiSettingPanel.min.css?v=201804261354");
-
-
-
-
-        //样板网站要自动把标识是不是使用导航2.0的位设为true　旧样板有部分要保留旧导航
-
-
-        var sitesTimeTamp = 0;
-
-
-
-
-    });
-
-    //错误上报
-    (function(){
-        var _jsErrCahche = [];
-        var cacheOnError = window.onerror;
-        window.onerror = function(sMsg,sUrl,sLine){
-            if (typeof Site == 'undefined') {
-                alert('您的网页未加载完成，请尝试按“CTRL+功能键F5”重新加载。');
-            }
-            if( sLine < 1 || typeof sMsg != 'string' || sMsg.length < 1 ){
-                return;
-            }
-
-            var log = "Error:" + sMsg + ";Line:" + sLine + ";Url:" + sUrl;
-            var alertLog = "Error:"+sMsg+"\n" + "Line:" + sLine + "\n" + "Url:" + sUrl + "\n";
-            var encodeUrl = function (url){
-                return typeof url === "undefined" ? "" : encodeURIComponent(url);
-            };
-
-            var ajax = true;
-            var obj = { 'm' : sMsg, 'u' : sUrl, 'l' : sLine };
-            for( var i = 0; i < _jsErrCahche.length; i ++ ){
-                if( _jsErrCahche[i].m == obj.m && _jsErrCahche[i].u == obj.u && _jsErrCahche[i].l == obj.l  ){
-                    ajax = false;
-                    break;
-                }
-            }
-
-            if( ajax ){
-                _jsErrCahche.push( obj );
-                _faiAjax.ajax({
-                    type	: "post",
-                    url		: "ajax/logJsErr_h.jsp?cmd=jsErr",
-                    data	: 'msg='+ encodeUrl(log)
-                });
-            }
-            if(Fai.top._devMode){
-                alert( alertLog );
-            }
-            if(typeof cacheOnError == "function"){
-                cacheOnError(sMsg,sUrl,sLine);
-            }
-        };
-    })();
-
-
-
-
-
-
-    $LAB.script("//1.ss.faisys.com/js/module_shoppingCart.min.js?v=201802281113").wait(function(){
-        jzUtils.trigger({
-            'name':'initShoppingCart',
-            'base':Site
-        });
-    });
-
-    // 在线视频模块
-
-    Site.loadCss("//2.ss.faisys.com/css/comm/video.js/video-js.min.css?v=201801161729");
-    Site.loadCss("//2.ss.faisys.com/css/video.min.css?v=201711250202");
-    // $LAB.script("//0.ss.faisys.com/error_js_video_ie8_js");
-    $LAB.script("//1.ss.faisys.com/js/comm/video.js/video.min.js?v=201802261203");
-
-
-    //日历控件新样式，by jser 2017-10-7
-    Site.loadCss("//2.ss.faisys.com/css/datepicker.min.css?v=201804231138");
-
-
-
-    $LAB.script("//1.ss.faisys.com/js/module_moduleEditTool.min.js?v=201803191139").wait(function(){
-        Site.loadCss("//2.ss.faisys.com/css/site/moduleEditTool.min.css?v=201804261354", function(){
-            jzUtils.trigger({
-                "name":"addModuleContextMenu",
-                "base":Site
-            });
-            jzUtils.trigger({
-                "name":"moduleEditTool.init",
-                "base":Site
-            });
-        });
-    });
-
-
-    $LAB.script("//1.ss.faisys.com/js/productSlide.min.js?v=201803201639");
-
-
-    $LAB.script("//1.ss.faisys.com/js/bookingSubmitPanel.min.js?v=201804081318");
-    $LAB.script("//1.ss.faisys.com/js/photoSlide.min.js?v=201804081841");
-    $LAB.script("//1.ss.faisys.com/js/imageEffect.min.js?v=201804231138")
-        .wait(function () {
-            jzUtils.trigger({
-                "name": "ImageEffect.FUNC.BASIC.Init",
-                "base":Site
-            });
-        });
-
-
-
-
-    $LAB.script("//1.ss.faisys.com/js/vcomponents.min.js?v=201804242233").wait(function(){});
-    Site.loadCss("//2.ss.faisys.com/css/funPanel.min.css?v=201804261601", function(){
-        $LAB.script("//1.ss.faisys.com/js/funPanel.min.js?v=201804261601").wait(function(){});
-    });
-
-
-
-    $LAB.script("//1.ss.faisys.com/js/moduleAnimation.min.js?v=201804261042")
-        .wait(function(){
-
-            jzUtils.run({
-                "name": "moduleAnimation.scroll",
-                "base":Site
-            });
-
-        });
-    Site.demandLoadCss("//2.ss.faisys.com/css/moduleAnimation.min.css?v=201611281833");
-
-
-    $LAB.script("//1.ss.faisys.com/js/siteTemplates.min.js?v=201804231138")
-        .wait(function(){
-            jzUtils.trigger({
-                "name": "rapidSite.init",
-                "base":Site
-            });
-
-        })
-
-        .script("//1.ss.faisys.com/js/faiSettingPanel.min.js?v=201802281113");
-
-
-    if(_useNavVersionTwo){
-        Site.loadCss("//2.ss.faisys.com/css/packPanel.min.css?v=201804261354", function(){
-            $LAB.script("//1.ss.faisys.com/js/packPanelCompon.min.js?v=201803211027").wait(function(){});
-        });
-    }
-
-
-    $LAB.script("//1.ss.faisys.com/js/elemZone.min.js?v=201804231625").wait(function(){
-        Fai.top._elemZone.init();
-    });
-
-    $LAB.script("//1.ss.faisys.com/js/newStyleSettingPanel.min.js?v=201804251138").wait(function(){});
-
-    Site.loadCss("//2.ss.faisys.com/css/stylePanel.min.css?v=201804261354", function(){
-        $LAB.script("//1.ss.faisys.com/js/newStyleSettingPanel.min.js?v=201804251138").wait(function(){});
-    });
-
-
-    $LAB.script("//1.ss.faisys.com/js/undo.min.js?v=201804242233").wait(function(){});
-
-
-
-    Site.checkDomainAuth();
-    if( false ){
-        $.cookie('_loadedUserStatIframe',true,{ expires: 1 });
-    }
-    if( false ){
-        $.cookie('_loadedVipStatIframe',true,{ expires: 365 });
-    }
-
-</script>--%>
-
-<script type="text/javascript" src ="//1.ss.faisys.com/js/topBar.min.js?v=201804281212"></script>
+<script type="text/javascript" src ="//1.ss.faisys.com/js/topBar.min.js?v=201804281455"></script>
+<div id="popoverArea"></div>
 </body>
 </html>
 

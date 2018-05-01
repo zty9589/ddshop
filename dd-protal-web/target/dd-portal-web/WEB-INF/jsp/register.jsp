@@ -134,7 +134,6 @@
                     e.preventDefault();
 					//前端校验通过
                     if(flag1&&flag2&&flag3&&flag4&&flag5&&flag6){
-                        alert(flag1)
 						//Ajax提交表单
 						var param = {"username":username,"password":password2,"phone":phone};
                         $.ajax({

@@ -17,6 +17,8 @@ public class TbUser {
 
     private Date updated;
 
+    private String status;
+
     public Long getId() {
         return id;
     }
@@ -71,5 +73,13 @@ public class TbUser {
 
     public void setUpdated(Date updated) {
         this.updated = updated;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

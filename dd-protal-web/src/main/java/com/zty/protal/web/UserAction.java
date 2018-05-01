@@ -4,13 +4,16 @@ import com.zty.ddshop.pojo.po.TbUser;
 import com.zty.ddshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.text.ParseException;
+import java.util.List;
 
 @Controller
 public class UserAction {
@@ -57,5 +60,37 @@ public class UserAction {
         tbUser.setPhone(phone);
         Integer flag = userService.selectTbUserByParams(tbUser);
         return flag+"";
+    }
+
+    @RequestMapping(value = "/userLogin" , method = RequestMethod.POST)
+    @ResponseBody
+    public String userLogin(HttpServletRequest request){
+        String flag ="";
+        //得到用户名，密码
+        String loginname = request.getParameter("loginname");
+        String nloginpwd = request.getParameter("nloginpwd");
+        //根据用户名查找
+        TbUser tbUser = new TbUser();
+        tbUser.setUsername(loginname);
+        List<TbUser> list = userService.findTbUserByParams(tbUser);
+        //得到Session
+        HttpSession session = request.getSession();
+        if(CollectionUtils.isEmpty(list)){
+            flag="3";//该用户未注册
+        }else{
+            TbUser tb = list.get(0);
+            if(nloginpwd.equals(tb.getPassword())){//允许登录
+                if("0".equals(tb.getStatus())){
+                    session.setAttribute("username",tb.getUsername());
+                    flag = "0";//管理员登录
+                }else if("1".equals(tb.getStatus())){
+                    session.setAttribute("username",tb.getUsername());
+                    flag = "1";//会员登录
+                }
+            }else{//用户名匹配，密码不匹配
+                flag = "2";//密码错误
+            }
+        }
+        return flag;
     }
 }
